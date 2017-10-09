@@ -2,21 +2,30 @@
 
 # Create a vector `first.ten` that has the values 10 through 20 in it (using the : operator)
 
+first.ten <- 10:20
+
 
 # Create a vector `next.ten` that has the values 21 through 30 in it (using the seq operator)
 
+next.ten <- c(21, 22, 23, 24, 25, 26, 27, 28, 29, 30)
 
 # Create a vector `all.numbers` by combining the vectors `first.ten` and `next.ten`
+
+all.numbers <- next.ten + first.ten
 
 
 # Create a variable `eleventh` that is equal to the 11th element in your vector `all.numbers`
 
+eleventh <- all.numbers[11]
+
 
 # Create a vector `some.numbers` that is equal to the second through the 5th elements of `all.numbers`
 
+some.numbers <- all.numbers
 
 # Create a variable `len` that is equal to the length of your vector `all.numbers`
 
+len <- length(all.numbers)
 
 ### Bonus ###
 
